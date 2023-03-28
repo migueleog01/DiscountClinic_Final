@@ -160,7 +160,7 @@
 		</div>
 	</main>
 </html>
-<h3> UPCOMING Appointments</h3>
+<h3> Upcoming Appointments</h3>
 <table>
   <thead>
     <tr>
