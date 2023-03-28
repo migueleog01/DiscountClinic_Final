@@ -54,7 +54,7 @@
 				<li><a href="patientappointments.php">Schedule Appointment</a></li>
                 <li><a href="transactions.php">Transactions</a></li>
                <li><a href="patientprofile.php">Profile</a></li>
-				<li><a href ="form.php">Patient Form</a></li>
+				<li><a href = "thankyouForm.php">Patient Form</a></li>
 				<li><a href="logout.php">Logout</a></li>
 			</ul>
 		</nav>
@@ -184,10 +184,10 @@
 
 
 
-
 		// close connection
 		$conn->close();
 		
+		ob_flush();
 
 
 
