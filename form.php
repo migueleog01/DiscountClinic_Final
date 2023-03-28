@@ -41,16 +41,21 @@
 <body>
     <?php
     
+
     session_start();
     ob_start();
 
+
 //ob_start();
+
 
     include("dbh-inc.php");
     include("functions.php");
 
+
     $user_data = check_login($conn);
     $user_id_fk = $user_data['user_ID'];
+
 
     // Check if the form has been submitted
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -182,7 +187,7 @@
     mysqli_close($conn);
     
     }
-    ob_end_flush();
+    
     ?>
 	<h1>Patient Information Form</h1>
 	<form method="post" action = "<?php echo $_SERVER['PHP_SELF']; ?>" >
