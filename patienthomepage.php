@@ -90,8 +90,9 @@
   <tbody>
 	<?php
 		//session_start();
-		ob_start();
+		
 		session_start();
+		ob_start();
 
 
 		include("dbh-inc.php");
