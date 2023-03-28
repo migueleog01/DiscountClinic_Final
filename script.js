@@ -1,4 +1,4 @@
-/*
+
 const dateInput = document.getElementById("date-input");
 const errorMessage = document.getElementById("error-message");
 
@@ -35,6 +35,6 @@ function isValidPhone(phone) {
 const emergencyContactPhoneInput = document.getElementById('emergencyContactPhone');
 const emergencyContactPhoneError = document.getElementById('emergencyContactPhoneError');
 
-*/
+
 
 

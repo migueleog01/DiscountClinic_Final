@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css" />
 
     <script src = "script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<title>Patient Information Form</title>
 	<style>
 		label {
@@ -39,9 +40,10 @@
 		}
 	</style>
 </head>
-
 <body>
     <?php
+    
+
     session_start();
     ob_start();
 
@@ -377,6 +379,7 @@
         <button type="submit" value="Submit">Submit</button>
 
     <form >
+    
     
 </body>
 
