@@ -1,12 +1,12 @@
 <?php 
-//session_start();
+	session_start();
 //ob_start();
 //ob_start();
 
-	//include("dbh-inc.php");
-	//include("functions.php");
+	include("dbh-inc.php");
+	include("functions.php");
 
-	//$user_data = check_login($conn);
+	$user_data = check_login($conn);
 ?>
 
 <!DOCTYPE html>
@@ -88,13 +88,12 @@
   </thead>
   <tbody>
 	<?php
-		session_start();
-		ob_start();
-		include("dbh-inc.php");
-		include("functions.php");
+		//session_start();
+		//ob_start();
+		//include("dbh-inc.php");
+		//include("functions.php");
 
-		$user_data = check_login($conn);
-		ob_start();
+		//$user_data = check_login($conn);
 
 		$TEST = $user_data['username'];
 		$query = "SELECT user_id FROM user WHERE username = '$TEST'";
