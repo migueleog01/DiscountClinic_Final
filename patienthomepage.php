@@ -1,12 +1,13 @@
 <?php 
-	session_start();
+	//ob_start();
+	//session_start();
 //ob_start();
 //ob_start();
 
-	include("dbh-inc.php");
-	include("functions.php");
+	//include("dbh-inc.php");
+	//include("functions.php");
 
-	$user_data = check_login($conn);
+	//$user_data = check_login($conn);
 ?>
 
 <!DOCTYPE html>
@@ -90,6 +91,13 @@
 	<?php
 		//session_start();
 		ob_start();
+		session_start();
+
+
+		include("dbh-inc.php");
+		include("functions.php");
+
+		$user_data = check_login($conn);
 		//include("dbh-inc.php");
 		//include("functions.php");
 
