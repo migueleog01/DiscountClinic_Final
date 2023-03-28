@@ -70,6 +70,7 @@
 				<p>Cardiology</p>
 				<p>Dermatology</p>
 		</div>
+	</main>
 </html>
 <h3> UPCOMING Appointments</h3>
 <table>
