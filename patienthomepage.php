@@ -89,20 +89,6 @@
   </thead>
   <tbody>
 	<?php
-		//session_start();
-		
-		session_start();
-		ob_start();
-
-
-		include("dbh-inc.php");
-		include("functions.php");
-
-		$user_data = check_login($conn);
-		//include("dbh-inc.php");
-		//include("functions.php");
-
-		//$user_data = check_login($conn);
 
 		$TEST = $user_data['username'];
 		$query = "SELECT user_id FROM user WHERE username = '$TEST'";
