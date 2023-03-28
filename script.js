@@ -1,7 +1,8 @@
+/*
 const dateInput = document.getElementById("date-input");
 const errorMessage = document.getElementById("error-message");
 
-/*
+
 dateInput.addEventListener('input', function() {
   const enteredDate = dateInput.value;
   const dateRegex = /^\d{2}\/\d{2}\/\d{4}$/;
@@ -12,7 +13,7 @@ dateInput.addEventListener('input', function() {
     errorMessage.textContent = "";
   }
 });
-*/
+
 const phoneInput = document.getElementById('patientphone');
 const phoneError = document.getElementById('phone-error');
 
@@ -34,6 +35,6 @@ function isValidPhone(phone) {
 const emergencyContactPhoneInput = document.getElementById('emergencyContactPhone');
 const emergencyContactPhoneError = document.getElementById('emergencyContactPhoneError');
 
-
+*/
 
 
